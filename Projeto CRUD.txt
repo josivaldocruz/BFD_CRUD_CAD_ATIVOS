@@ -1,0 +1,60 @@
+Projeto CRUD (Parte 1)
+Nesta atividade, vamos iniciar o desenvolvimento de um CRUD.
+CRUD é um acrônimo para Create, Read, Update e Delete (Criar, Ler, Atualizar e Deletar),
+que são as quatro operações básicas utilizadas em sistemas que manipulam dados. Em outras palavras,
+quase todo sistema ou aplicação precisa lidar com informações que podem ser cadastradas, consultadas, modificadas ou excluídas,
+e o CRUD representa esse conjunto de operações fundamentais.
+
+
+
+Etapa 1: Organização dos Grupos e Planejamento do Projeto
+Nesta primeira etapa, cada grupo deverá:
+
+Formar a equipe: definir os integrantes do grupo.
+
+Escolher o tema do CRUD: por exemplo, cadastro de livros, filmes, alunos, produtos, entre outros. O tema deve ser simples e objetivo.
+
+Criar um repositório no GitHub: um membro da equipe deve criar o repositório e adicionar os outros membros como contribuidores. Este será o espaço oficial onde o grupo armazenará e versionará o código do projeto.
+
+Criar um quadro no Trello: este será utilizado para gerenciar as tarefas do grupo, organizar as etapas do desenvolvimento e acompanhar o progresso.
+
+Entrega desta etapa
+Cada membro do grupo deve enviar:
+
+Nome do grupo.
+
+Tema escolhido para o CRUD.
+
+Link do repositório no GitHub.
+
+Forma de acesso ao quadro do Trello (link público ou convite para visualização)
+Projeto CRUD (Parte 1)
+Nesta atividade, vamos iniciar o desenvolvimento de um CRUD.
+CRUD é um acrônimo para Create, Read, Update e Delete (Criar, Ler, Atualizar e Deletar),
+que são as quatro operações básicas utilizadas em sistemas que manipulam dados. Em outras palavras,
+quase todo sistema ou aplicação precisa lidar com informações que podem ser cadastradas, consultadas, modificadas ou excluídas,
+e o CRUD representa esse conjunto de operações fundamentais.
+
+
+
+Etapa 1: Organização dos Grupos e Planejamento do Projeto
+Nesta primeira etapa, cada grupo deverá:
+
+Formar a equipe: definir os integrantes do grupo.
+
+Escolher o tema do CRUD: por exemplo, cadastro de livros, filmes, alunos, produtos, entre outros. O tema deve ser simples e objetivo.
+
+Criar um repositório no GitHub: um membro da equipe deve criar o repositório e adicionar os outros membros como contribuidores. Este será o espaço oficial onde o grupo armazenará e versionará o código do projeto.
+
+Criar um quadro no Trello: este será utilizado para gerenciar as tarefas do grupo, organizar as etapas do desenvolvimento e acompanhar o progresso.
+
+Entrega desta etapa
+Cada membro do grupo deve enviar:
+
+Nome do grupo.
+
+Tema escolhido para o CRUD.
+
+Link do repositório no GitHub.
+
+Forma de acesso ao quadro do Trello (link público ou convite para visualização).

@@ -1,8 +1,4 @@
 def Cadastrar_Bens():
-
-
-
-
-
-    
-    return
+   
+   
+   return print("Cadastrar_Bens teste")

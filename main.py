@@ -1,3 +1,8 @@
+from Create import Cadastrar_Bens
+from Read import Consultar_Bens
+from Update import Atualizar_Bens
+from Delete import Baixar_Bens
+
 
 print("Bem-vindo ao Sistema de Bens Patrimoniais")
 while True:
@@ -13,15 +18,15 @@ while True:
         print("\nEncerrando o Sistema de Bens Patrimoniais. Até mais!\n")
         break
     if operacao not in [1, 2, 3, 4]:
-        print("Por favor, Escolha uma opção do menu de 1 à 5:")
+        print("Por favor, Escolha uma opção do menu de 1 5:")
         continue
 
     match operacao:
         case 1:
-            resultado = somar(a, b)
+            resultado = Cadastrar_Bens()
         case 2:
-            resultado = subtrair(a, b)
+            resultado = Consultar_Bens()
         case 3:
-            resultado = multiplicar(a, b)
+            resultado = Atualizar_Bens()
         case 4:
-            resultado = dividir(a, b)
+            resultado = Baixar_Bens()

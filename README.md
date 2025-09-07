@@ -21,8 +21,7 @@ Este projeto tem como objetivo desenvolver uma aplicação CRUD para o gerenciam
 
 ## Tecnologias sugeridas
 - Python
-- SQLite ou outro banco de dados simples
-- Interface CLI ou Web (a definir pelo grupo)
+- Dicionario
 
 ## Organização
 O projeto será gerenciado via GitHub e Trello, com divisão de tarefas entre os integrantes e acompanhamento do progresso por etapas.

@@ -1,5 +1,5 @@
 # Menu de cadastro
-
+from Banco_Dados import bens_patrimoniais as bd
 from Create import Cadastrar_Bens
 from Read import Consultar_Bens
 from Update import Atualizar_Bens
@@ -14,13 +14,17 @@ while True:
     "3 - Atualizar Bens\n"
     "4 - Baixar Bens\n"
     "5 - sair")
-    operacao = int(input("\nEscolha uma opção do menu de 1 à 5:\n"))
+
+    try:
+        operacao = int(input("\nEscolha uma opção do menu de 1 à 5:\n"))
+    except (NameError, ValueError):
+        continue
 
     if operacao == 5:
         print("\nEncerrando o Sistema de Bens Patrimoniais. Até mais!\n")
         break
     if operacao not in [1, 2, 3, 4]:
-        print("Por favor, Escolha uma opção do menu de 1 5:")
+        print("\nSó é permitido a escolha de uma das opção do menu de 1 à 5:")
         continue
 
     match operacao:

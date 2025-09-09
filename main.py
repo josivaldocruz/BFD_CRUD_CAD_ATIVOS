@@ -23,7 +23,8 @@ def menu():
 
         if operacao == 5:
             print("\nEncerrando o Sistema de Bens Patrimoniais. Até mais!\n")
-            break
+            exit()
+            
         if operacao not in [1, 2, 3, 4]:
             print("\nSó é permitido a escolha de uma das opção do menu de 1 à 5:")
             continue

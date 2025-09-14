@@ -9,7 +9,7 @@ from Banco_Dados import bens_patrimoniais as bd
 def Cadastrar_Bens():
     from main import menu
 
-    print("\nBem-vindo ao Sitema de Cadastro de bens")
+    print("\n==Bem-vindo ao Sitema de Cadastro de bens==")
     print("\nDigite os dados para cadastro\n")
 
     novoid = (list(bd.values())[-1]["id"]) + 1
@@ -59,21 +59,21 @@ def Cadastrar_Bens():
                 "3 - Sair do sistema\n")
 
             try:
-                Valoroperacao = int(input("\nEscolha uma opção do menu de 1 à 3:\n"))
+                operacao = int(input("\nEscolha uma opção do menu de 1 à 3:\n"))
             except (NameError, ValueError):
                 continue 
 
-            if Valoroperacao not in [1, 2, 3]:
+            if operacao not in [1, 2, 3]:
                 print("\nSó é permitido a escolha de uma das opção do menu de 1 à 3:")
                 continue
 
-            match Valoroperacao:
+            match operacao:
                 case 1: 
-                    break  
+                    Cadastrar_Bens()  
                 case 2: menu()
              
                 case 3: 
                     print("\nEncerrando o Sistema de Bens Patrimoniais. Até mais!\n")
                     exit()
 
-Cadastrar_Bens()
+    return

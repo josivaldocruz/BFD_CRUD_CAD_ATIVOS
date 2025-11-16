@@ -1,4 +1,5 @@
 # Lista para armazenar os bens cadastrados
+from mods_Objeto import BemPatrimonial
 
 bens_patrimoniais = {
     "notebook_001": {
@@ -61,3 +62,12 @@ bens_patrimoniais = {
         "condicao": "Novo"
     }
 }
+
+# objetos_bens = {
+#     chave: BemPatrimonial(**dados)
+#     for chave, dados in bens_patrimoniais.items()
+# }
+
+# # Testando:
+# for k, obj in objetos_bens.items():
+#     print(k, obj.nome, obj.valor)
